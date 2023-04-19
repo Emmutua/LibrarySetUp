@@ -19,9 +19,18 @@ plugins {
     id 'kotlin-kapt'
 }
 
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.dagger.hilt.android'
+
+android{
+
+}
+
 dependencies {
 
         implementation "com.google.dagger:hilt-android:2.44"
     kapt "com.google.dagger:hilt-compiler:2.44"
  
   }
+  
