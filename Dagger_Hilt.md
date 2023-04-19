@@ -19,9 +19,11 @@ plugins {
     id 'kotlin-kapt'
 }
 
+must apply plugin
 
-apply plugin: 'com.android.application'
-apply plugin: 'com.google.dagger.hilt.android'
+     apply plugin: 'com.android.application'
+     apply plugin: 'com.google.dagger.hilt.android'
+
 
 android{
 
